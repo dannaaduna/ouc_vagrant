@@ -33,6 +33,6 @@ sudo -E sed -i.orig '/<X-PRE-PROCESS.*default_password/i\
 
 ```
 sudo -E sed -i.orig '/<X-PRE-PROCESS.*default_password/i\
-  <X-PRE-PROCESS cmd="set" data="local_ip_v4=10.24.7.14"/>
+  <X-PRE-PROCESS cmd="set" data="local_ip_v4=10.24.7.15"/>
 ' /etc/sipxpbx/freeswitch/conf/vars.xml
 ```
