@@ -2,6 +2,7 @@
 
 # run crontab -e
 # then add the following line:
+# @reboot /vagrant/set_fs_ip
 # * * * * * /vagrant/set_fs_ip
 
 N=1
